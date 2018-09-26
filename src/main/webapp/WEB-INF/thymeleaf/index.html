@@ -1,0 +1,14 @@
+<html>
+<body>
+		<h2>Rebel Logger!</h2>
+
+		<br />
+        <form method="POST" th:action="@{/addRebel}" id="rebelForm">
+            Name: <input type="text" name="name" id="name" /><br />
+            Planet: <input type="text" name="planet" id="planet" /><br />
+            <input type="submit" value="Submit" />
+        </form>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script th:src="@{/js/script.js}"></script>
+</html>
